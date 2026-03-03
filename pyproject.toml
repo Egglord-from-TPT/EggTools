@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "variablesplus"
-version = "3.0.0"
+version = "3.1.0"
 description = "A Python package for handling variables, also my first library. I hope you enjoy! You can create, clear, write to, delete and read variables. Safely."
 readme = "README.md"
 requires-python = ">=3.8"
