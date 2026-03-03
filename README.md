@@ -1,6 +1,6 @@
 # variables_plus
 
-A simple Python library to create, clear, read, write and delete global variables.
+A simple Python library to create, clear, read, write and delete variables in multiple sandboxes.
 
 This is my first python library :D
 
@@ -16,7 +16,7 @@ vp.vp("read(variable)")   # Doesn't print it. Use print(vp.vp("read(variable)"))
 
 vp.vp(“write(variable=something)”)   # Variable needs to exist.
 
-vp.vp("SANDBOX()") # Add 0, 1 True or False between the brackets.
+vp.vp("SANDBOX()") # Add a number between the brackets for the sandbox ID.
 
 # !NB!
 
