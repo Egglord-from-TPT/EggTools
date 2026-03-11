@@ -1,25 +1,19 @@
-# variables_plus
+# EggTools
 
-A simple Python library to create, clear, read, write and delete variables in multiple sandboxes.
+A simple Python library that lets you update and install my modules, scan python code for potential malicious code and crash python.
 
-This is my first python library :D
+This is my eighth python library :D
 
 Commands:
 
-vp.vp("create(variable=something)")   # Remove =something to create a blank variable.
+EggTools.Update() # Updates and installs all my modules
 
-vp.vp("clear(variable)")   # Leave clear() empty to clear all variables.
+EggTools.Scan("YOUR_CODE") # Scans python code for potential malicious code
 
-vp.vp("delete(variable)")   # Variable needs to exist.
-
-vp.vp("read(variable)")   # Doesn't print it. Use print(vp.vp("read(variable)")) to print the variables contents.
-
-vp.vp(“write(variable=something)”)   # Variable needs to exist.
-
-vp.vp("SANDBOX()") # Add a number between the brackets for the sandbox ID.
+EggTools.EggCrash() # Crashes python in a cool way. Simple.
 
 # !NB!
 
-Use: pip install variablesplus
+Use: pip install eggtools
 
-But, to import it: import vp
+But, to import it: import EggTools
