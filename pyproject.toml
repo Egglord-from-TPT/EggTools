@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "eggtools"
-version = "1.0.0"
+version = "1.0.1"
 description = "A simple Python library that lets you update and install my modules, scan python code for potential malicious code and crash python."
 readme = "README.md"
 requires-python = ">=3.8"
