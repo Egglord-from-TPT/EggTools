@@ -1,1 +1,1 @@
-from .eggtools import Update, Scan, EggCrash
+from .EggTools import Update, Scan, EggCrash
