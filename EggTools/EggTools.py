@@ -23,7 +23,7 @@ def Update():
     packages=[]
     print("EGGLORDS PACKAGES:")
     for p in projects:
-        if p!="EggTools":
+        if p!="eggtools":
             packages.append(p)
             print("    ",p)
     print("\n")
